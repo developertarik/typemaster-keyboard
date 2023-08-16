@@ -96,8 +96,19 @@ body{
 .footer{
     display:flex;
     flex-direction: row;
+    padding: 2%;
 
 }
 .footer-box{
     width: 25%;
+}
+.footer-box > h1{
+    text-transform: uppercase;
+
+}
+.mini{
+    background-color: orange;
+    width: 50px;
+    padding: 10px;
+    
 }
